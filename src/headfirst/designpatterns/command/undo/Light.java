@@ -22,8 +22,7 @@ public class Light {
 		this.level = level;
 		if (level == 0) {
 			off();
-		}
-		else {
+		} else {
 			System.out.println("Light is dimmed to " + level + "%");
 		}
 	}

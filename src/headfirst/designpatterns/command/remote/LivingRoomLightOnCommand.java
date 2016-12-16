@@ -1,9 +1,9 @@
 package headfirst.designpatterns.command.remote;
 
-public class LivingroomLightOnCommand implements Command {
+public class LivingRoomLightOnCommand implements Command {
 	Light light;
 
-	public LivingroomLightOnCommand(Light light) {
+	public LivingRoomLightOnCommand(Light light) {
 		this.light = light;
 	}
 

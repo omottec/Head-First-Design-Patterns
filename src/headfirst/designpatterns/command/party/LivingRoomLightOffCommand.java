@@ -1,15 +1,15 @@
 package headfirst.designpatterns.command.party;
 
-public class LivingroomLightOnCommand implements Command {
+public class LivingRoomLightOffCommand implements Command {
 	Light light;
 
-	public LivingroomLightOnCommand(Light light) {
+	public LivingRoomLightOffCommand(Light light) {
 		this.light = light;
 	}
 	public void execute() {
-		light.on();
+		light.off();
 	}
 	public void undo() {
-		light.off();
+		light.on();
 	}
 }
