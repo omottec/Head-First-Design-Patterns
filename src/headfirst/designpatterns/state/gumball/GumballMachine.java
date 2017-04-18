@@ -72,7 +72,7 @@ public class GumballMachine {
 		} else if (state == SOLD_OUT) {
 			System.out.println("No gumball dispensed");
 		} else if (state == HAS_QUARTER) {
-			System.out.println("No gumball dispensed");
+			System.out.println("You need to turn crank");
 		}
 	}
  
