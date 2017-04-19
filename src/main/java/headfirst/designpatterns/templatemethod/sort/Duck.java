@@ -20,7 +20,7 @@ public class Duck implements Comparable<Duck> {
 		if (this.weight < otherDuck.weight) {
 			return -1;
 		} else if (this.weight == otherDuck.weight) {
-			return 0;
+			return this.name.compareTo(otherDuck.name);
 		} else { // this.weight > otherDuck.weight
 			return 1;
 		}
