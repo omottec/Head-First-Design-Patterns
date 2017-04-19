@@ -59,7 +59,7 @@ public class HomeTheaterFacade {
 	}
 
 	public void listenToCd(String cdTitle) {
-		System.out.println("Get ready for an audiopile experence...");
+		System.out.println("Get ready for an audiopile experience...");
 		lights.on();
 		amp.on();
 		amp.setVolume(5);
