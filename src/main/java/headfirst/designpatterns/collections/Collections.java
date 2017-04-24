@@ -13,7 +13,7 @@ public class Collections {
 		}
 		
 		System.out.println("Using iterator with Vector");
-		Iterator<String> iterator = (Iterator<String>) v.iterator();
+		Iterator<String> iterator = v.iterator();
 		while (iterator.hasNext()) {
 			System.out.println(iterator.next());
 		}
