@@ -20,7 +20,7 @@ public class Cafe {
  
 	private static void printMenu(Iterator<String> iterator) {
 		while (iterator.hasNext()) {
-			String menuItem = (String)iterator.next();
+			String menuItem = iterator.next();
 			System.out.println(menuItem);
 
 		}

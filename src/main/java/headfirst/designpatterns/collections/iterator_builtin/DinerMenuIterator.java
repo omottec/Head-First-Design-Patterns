@@ -11,9 +11,7 @@ public class DinerMenuIterator implements Iterator<String> {
 	}
  
 	public String next() {
-		String menuItem = list[position];
-		position = position + 1;
-		return menuItem;
+		return list[position++];
 	}
  
 	public boolean hasNext() {
