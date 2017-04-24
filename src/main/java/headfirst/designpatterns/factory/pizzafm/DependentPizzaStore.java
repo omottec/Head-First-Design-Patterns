@@ -25,7 +25,7 @@ public class DependentPizzaStore {
 				pizza = new ChicagoStylePepperoniPizza();
 			}
 		} else {
-			System.out.println("Error: invalid type of pizza");
+			System.out.println("Error: invalid style of pizza");
 			return null;
 		}
 		pizza.prepare();
