@@ -9,9 +9,7 @@ public class ArrayIterator implements Iterator {
 	}
  
 	public MenuItem next() {
-		MenuItem menuItem = items[position];
-		position = position + 1;
-		return menuItem;
+		return items[position++];
 	}
  
 	public boolean hasNext() {
