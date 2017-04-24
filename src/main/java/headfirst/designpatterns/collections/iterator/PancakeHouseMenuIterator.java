@@ -11,9 +11,7 @@ public class PancakeHouseMenuIterator implements Iterator {
 	}
  
 	public String next() {
-		String menuItem = (String) items.get(position);
-		position = position + 1;
-		return menuItem;
+		return items.get(position++);
 	}
  
 	public boolean hasNext() {

@@ -12,7 +12,7 @@ public class Cafe {
 		System.out.println("\nMENU\n----\nBREAKFAST");
 		ArrayList<String> breakfastItems = pancakeHouseMenu.getMenuItems();
 		for (int i = 0; i < breakfastItems.size(); i++) {
-			String menuItem = (String)breakfastItems.get(i);
+			String menuItem = breakfastItems.get(i);
 			System.out.println(menuItem);
 		}
 
