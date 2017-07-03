@@ -11,7 +11,7 @@ public class NonOwnerInvocationHandler implements InvocationHandler {
  
 	public Object invoke(Object proxy, Method method, Object[] args) 
 			throws IllegalAccessException {
-  
+		System.out.println("NonOwnerInvocationHandler#" + method.getName());
 		try {
 			if (method.getName().startsWith("get")) {
 				return method.invoke(person, args);
